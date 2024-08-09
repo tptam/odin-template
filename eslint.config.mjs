@@ -3,6 +3,6 @@ import pluginJs from "@eslint/js";
 
 export default [
   { languageOptions: { globals: globals.browser } },
-  { ignores: ["webpck.config.js"] },
+  { ignores: ["webpack.config.js, babel.config.js"] },
   pluginJs.configs.recommended,
 ];
